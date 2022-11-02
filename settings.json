@@ -1,0 +1,35 @@
+{
+    "python.defaultInterpreterPath": "D:\\python\\envs\\test\\python.exe",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C,R",
+        "--max-line-length 120",
+        "--load-plugins pylint_django",
+        "--django-settings-module=myproject.settings",
+    ],
+    "python.autoComplete.extraPaths": [
+        "D:\\python\\envs\\test\\Lib\\site-packages",
+    ],
+    "python.analysis.extraPaths": [
+        "D:\\python\\envs\\test\\Lib\\site-packages",
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnPaste": false,
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true
+    },
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=120",
+        "--skip-string-normalization",
+    ],
+    "python.sortImports.path": "D:\\python\\envs\\test\\Scripts\\isort.exe",
+    "files.eol": "\n",
+    "code-runner.executorMap": {
+        "python": "set PYTHONIOENCODING=utf8 && set PYTHONDONTWRITEBYTECODE=1 && D:\\python\\envs\\test\\python.exe",
+    },
+}
